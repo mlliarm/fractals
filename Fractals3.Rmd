@@ -110,89 +110,89 @@ for (i in 1:5){
 
 ### Mandelbrot set ( $z = z^2 + c$)
 
-<img src="./Mandelbrot01b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot01b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^3 + c$)
 
-<img src="./Mandelbrot02b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot02b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^4 + c$)
 
-<img src="./Mandelbrot03b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot03b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^5 + c$)
 
-<img src="./Mandelbrot04b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot04b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{6} + c$)
 
-<img src="./Mandelbrot05b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot05b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 
 
 ### Another fractal ($z = z^7 + c$)
 
-<img src="./Mandelbrot01c.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot01c.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^8 + c$)
 
-<img src="./Mandelbrot02c.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot02c.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^9 + c$)
 
-<img src="./Mandelbrot03c.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot03c.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{10} + c$)
 
-<img src="./Mandelbrot04c.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot04c.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{11} + c$)
 
-<img src="./Mandelbrot05c.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot05c.gif" style="width:400px;height:400px;" align="middle"></img>
 
 
 
 ### Another fractal ($z = z^{12} + c$)
 
-<img src="./Mandelbrot01d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot01d.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{13} + c$)
 
-<img src="./Mandelbrot02d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot02d.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{14} + c$)
 
-<img src="./Mandelbrot03d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot03d.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{15} + c$)
 
-<img src="./Mandelbrot04d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot04d.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{16} + c$)
 
-<img src="./Mandelbrot05d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot05d.gif" style="width:400px;height:400px;" align="middle"></img>
 
 
 
 ### Another fractal ($z = z^{17} + c$)
 
-<img src="./Mandelbrot01e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot01e.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{18} + c$)
 
-<img src="./Mandelbrot02e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot02e.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{19} + c$)
 
-<img src="./Mandelbrot03e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot03e.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{20} + c$)
 
-<img src="./Mandelbrot04e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot04e.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{21} + c$)
 
-<img src="./Mandelbrot05e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot05e.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ## Sources
 
