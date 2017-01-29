@@ -2,8 +2,9 @@
 
 So, I've just learned how to use `knitr`, and this small project
 is just testing it out. You can check the R markdown files which 
-produced the GIFs at the end (or [here](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd) 
-and [here](https://github.com/mlliarm/fractals/blob/master/Fractals3.Rmd), if you're in a hurry).
+produced the GIFs at the end (or [here the first](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd),
+[the second](https://github.com/mlliarm/fractals/blob/master/Fractals3.Rmd) and 
+[the third](https://github.com/mlliarm/fractals/blob/master/Fractals4.Rmd), if you're in a hurry).
 
 Besides producing the images it also creates a cool report in html format.
 
@@ -35,10 +36,11 @@ Using the complex map `z = z^2 + c`:
 
 ![Mandel5](images/Mandelbrot5a.gif)
 
-## R markdown
+## R markdown files
 
-* [Code](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd)
-* [Extended code](https://github.com/mlliarm/fractals/blob/master/Fractals3.Rmd)
+* [First experiment](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd)
+* [Second experiment](https://github.com/mlliarm/fractals/blob/master/Fractals3.Rmd)
+* [Third experiment](https://github.com/mlliarm/fractals/blob/master/Fractals4.Rmd)
 
 ## Licence
 
