@@ -2,7 +2,7 @@
 title: Creating the Mandelbrot set with R
 date: "29/01/27"
 author: Mi. Lia.
-output: pdf_document
+output: html_document
 ---
 
 ***
