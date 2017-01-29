@@ -1,13 +1,11 @@
-#Some fractals with R
-
-by Mi.Lia.
-
 ## Link to the html knitted report
 
 So, I've just learned how to use `knitr`, and this small project
-is just testing it out. You'll find the relevant code in the following report.
+is just testing it out. You can check the R markdown file which 
+produced the GIFs at the end.
 
-[Report](https://mlliarm.github.io/fractals/)
+Besides producing the images it also creates a cool report in html format.
+
 
 ## Mandelbrot set
 
