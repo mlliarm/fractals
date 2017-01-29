@@ -4,7 +4,7 @@ So, I've just learned how to use `knitr`, and this small project
 is just testing it out. You can check the R markdown files which 
 produced the GIFs at the end (or [here's the first](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd),
 [the second](https://github.com/mlliarm/fractals/blob/master/Fractals3.Rmd) and 
-[the third](https://github.com/mlliarm/fractals/blob/master/Fractals4.Rmd), if you're in a hurry).
+[the third](https://github.com/mlliarm/fractals/blob/master/Fractals4.Rmd), since you're in a hurry).
 
 Besides producing the images it also creates a cool report in html format.
 
