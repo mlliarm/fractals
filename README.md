@@ -1,6 +1,13 @@
-### Some fractals with R
+#Some fractals with R
 
 by Mi.Lia.
+
+## Link to the html knitted report
+
+So, I've just learned how to use `knitr`, and this small project
+is just testing it out. You'll find the relevant code in the following report.
+
+[Report](https://mlliarm.github.io/fractals/)
 
 ## Mandelbrot set
 
