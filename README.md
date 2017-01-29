@@ -1,4 +1,4 @@
-## Link to the html knitted report
+## Some general comments
 
 So, I've just learned how to use `knitr`, and this small project
 is just testing it out. You can check the R markdown files which 
