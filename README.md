@@ -1,7 +1,7 @@
 ## Link to the html knitted report
 
 So, I've just learned how to use `knitr`, and this small project
-is just testing it out. You can check the R markdown file which 
+is just testing it out. You can check the R markdown file(s) which 
 produced the GIFs at the end (or [here](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd), if you're in a hurry).
 
 Besides producing the images it also creates a cool report in html format.
@@ -36,7 +36,8 @@ Using the complex map `z = z^2 + c`:
 
 ## R markdown
 
-[Code](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd)
+* [Code](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd)
+* [Extended code](https://github.com/mlliarm/fractals/blob/master/Fractals3.Rmd)
 
 ## Licence
 
