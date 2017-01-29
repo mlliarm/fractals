@@ -2,10 +2,9 @@
 
 So, I've just learned how to use `knitr`, and this small project
 is just testing it out. You can check the R markdown file which 
-produced the GIFs at the end.
+produced the GIFs at the end (or [here](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd), if you're in a hurry).
 
 Besides producing the images it also creates a cool report in html format.
-
 
 ## Mandelbrot set
 
