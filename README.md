@@ -26,9 +26,9 @@ Using the complex map `$ z = z^2 + c$`:
 
 ![Mandel5](Mandelbrot5a.gif)
 
-## R markdown code
+## R markdown
 
-(https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd)
+[Code](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd)
 
 ## Licence
 
