@@ -7,12 +7,11 @@ output: html_document
 
 ***
 
-### About the Mandelbrot set:
+## About the Mandelbrot set:
 
 See here: <https://en.wikipedia.org/wiki/Mandelbrot_set>
 
-
-### Code
+## Code
 
 ```{r setup, include=TRUE, warning=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -54,30 +53,30 @@ for (i in 1:5){
 
 ```
 
-### Results
+## Results
 
-## Mandelbrot set ( $z = z^2 + c$)
+### Mandelbrot set ( $z = z^2 + c$)
 
 <img src="./Mandelbrot1a.gif" style="width:400px;height:400px;" align="middle"></img>
 
-## Another fractal ($z = z^4 + c$)
+### Another fractal ($z = z^4 + c$)
 
-#<img src="./Mandelbrot2a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./Mandelbrot2a.gif" style="width:400px;height:400px;" align="middle"></img>
 
-## Another fractal ($z = z^6 + c$)
+### Another fractal ($z = z^6 + c$)
 
-#<img src="./Mandelbrot3a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./Mandelbrot3a.gif" style="width:400px;height:400px;" align="middle"></img>
 
-## Another fractal ($z = z^8 + c$)
+### Another fractal ($z = z^8 + c$)
 
-#<img src="./Mandelbrot4a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./Mandelbrot4a.gif" style="width:400px;height:400px;" align="middle"></img>
 
-## Another fractal ($z = z^{10} + c$)
+### Another fractal ($z = z^{10} + c$)
 
-#<img src="./Mandelbrot5a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./Mandelbrot5a.gif" style="width:400px;height:400px;" align="middle"></img>
 
 
-### Source
+## Sources
 
 * Whoever wrote this cool example: <https://en.wikipedia.org/wiki/R_(programming_language)#Programming_features>
 * How to compile a Rmarkdown notebook to html: <http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html>
