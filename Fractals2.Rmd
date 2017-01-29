@@ -28,24 +28,26 @@ C <- complex( real=rep(seq(-2.2, 1.0, length.out=dx), each=dy ),
 C <- matrix(C,dy,dx)       # reshape as square matrix of complex numbers
 
 
-Z <- list(0,0,0,0,0)                     # initialize Z to zero
+Z <- list(0,0,0,0,0) # initialize Z to zero
 
-# initialize output 3D array
+# initialize output 3D arrays
 X<- list(array(0, c(dy,dx,100)),
 	 array(0, c(dy,dx,100)),
 	 array(0, c(dy,dx,100)),
 	 array(0, c(dy,dx,100)),
 	 array(0, c(dy,dx,100)))
 
-for (k in 1:100) {          # loop with 20 iterations
+
+for (k in 1:100) {          	     # loop with 100 iterations
   for (i in 1:5){
   twoI <- 2*i
-  Z[[i]]<- Z[[i]]^(twoI) + C               # the central difference equation
+  Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
   
   X[[i]][,,k] <- exp(-abs(Z[[i]]))   # capture results
   }
 }
 
+# Create all the images
 for (i in 1:5){
 	filename <- paste("Mandelbrot",as.character(i),"a.gif",sep = "")
 	write.gif(X[[i]], filename, col=jet.colors, delay=100)
