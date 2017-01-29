@@ -108,7 +108,7 @@ for (i in 1:5){
 
 ## Results
 
-### Mandelbrot set ( $z = sin(z)^2 + c$)
+### Some  fractal ( $z = sin(z)^2 + c$)
 
 <img src="./images/Mandelbrot01bb.gif" style="width:400px;height:400px;" align="middle"></img>
 
