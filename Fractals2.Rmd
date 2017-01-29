@@ -54,5 +54,6 @@ write.gif(X2, "Mandelbrot333.gif", col=jet.colors, delay=100)
 ### Source
 
 * Whoever wrote this cool example: <https://en.wikipedia.org/wiki/R_(programming_language)#Programming_features>
-* How to compile a Rmarkdown notebook to html: <http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html>
+* How to compile a `.Rmd` file to `.html`: <http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html>
+* How to convert a `.Rmd` to a Jekyll friendly `.md`: <http://brooksandrew.github.io/simpleblog/articles/blogging-with-r-markdown-and-jekyll-using-knitr/>
 
