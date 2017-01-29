@@ -20,6 +20,14 @@ Using the complex map `z = z^2 + c`:
 
 ## Variations of the Mandelbrot set
 
+* Using the  map `z = z^4 + c`
+
+![Mandel4](images/Mandelbrot2a.gif)
+
+* Using the map `z = z^6 + c`
+
+![Mandel5](images/Mandelbrot3a.gif)
+
 * Using the map `z = sin(z)^2 + c`:
 
 ![Mandel2](images/Mandelbrot01bb.gif)
@@ -28,13 +36,6 @@ Using the complex map `z = z^2 + c`:
 
 ![Mandel3](images/Mandelbrot05cc.gif)
 
-* Using the  map `z = cos(z)*z^{10} + c`
-
-![Mandel4](images/Mandelbrot04dd.gif)
-
-* Using the map `z = sin(z^4) + c`
-
-![Mandel5](images/Mandelbrot01ee.gif)
 
 ## R markdown files
 
