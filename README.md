@@ -34,7 +34,7 @@ Using the complex map `z = z^2 + c`:
 
 * Using the map `z = sin(z^4) + c`
 
-![Mandel5](images/Mandelbrot21ee.gif)
+![Mandel5](images/Mandelbrot01ee.gif)
 
 ## R markdown files
 
