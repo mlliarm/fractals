@@ -8,7 +8,7 @@ Besides producing the images it also creates a cool report in html format.
 
 To compile the `.Rmd` file you'll just have to type in your favorite shell (assuming you're on GNU/Linux):
 
-    `R -e "rmarkdown::render('Fractals2.Rmd')"`
+      R -e "rmarkdown::render('Fractals2.Rmd')"
 
 ## Mandelbrot set
 
