@@ -1,4 +1,4 @@
-## Some general comments
+## General remarks
 
 So, I've just learned how to use `knitr`, and this small project
 is just testing it out. You can check the R markdown files which 
@@ -12,13 +12,15 @@ To compile the `.Rmd` file you'll just have to type in your favorite shell (assu
 
       R -e "rmarkdown::render('Fractals2.Rmd')"
 
-## Mandelbrot set
+## Mandelbrot set & friends
+
+### The father
 
 Using the complex map `z = z^2 + c`:
 
 ![Mandel1](images/Mandelbrot1a.gif)
 
-## Variations of the Mandelbrot set
+### Friends
 
 * Using the  map `z = z^4 + c`
 
