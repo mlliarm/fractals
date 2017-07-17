@@ -28,17 +28,13 @@ C <- complex( real=rep(seq(-2.2, 1.0, length.out=dx), each=dy ),
 C <- matrix(C,dy,dx)       # reshape as square matrix of complex numbers
 
 
-Z <- list(0,0,0,0,0) # initialize Z to zero
+Z <- list(0,0,0,0,0)
 
-# initialize output 3D arrays
-X<- list(array(0, c(dy,dx,100)),
-	 array(0, c(dy,dx,100)),
-	 array(0, c(dy,dx,100)),
-	 array(0, c(dy,dx,100)),
-	 array(0, c(dy,dx,100)))
+# initialize output 3D array
+X<- list(array(0, c(dy,dx,100)),array(0, c(dy,dx,100)),array(0, c(dy,dx,100)),
+	 array(0, c(dy,dx,100)),array(0, c(dy,dx,100)))
 
-
-for (k in 1:100) {          	     # loop with 100 iterations
+for (k in 1:100) {		    # loop with 100 iterations
   for (i in 1:5){
   twoI <- 2*i
   Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
@@ -47,11 +43,66 @@ for (k in 1:100) {          	     # loop with 100 iterations
   }
 }
 
-# Create all the images
 for (i in 1:5){
-	filename <- paste("Mandelbrot",as.character(i),"a.gif",sep = "")
+	filename <- paste("Mandelbrot","0",as.character(i),"b.gif",sep = "")
 	write.gif(X[[i]], filename, col=jet.colors, delay=100)
 }
+
+# Second cycle 6 - 10
+
+Z <- list(0,0,0,0,0)
+
+for (k in 1:100) {          	    # loop with 100 iterations
+  for (i in 1:5){
+  twoI <- 2*(i + 5)
+  Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
+
+  X[[i]][,,k] <- exp(-abs(Z[[i]]))   # capture results
+  }
+}
+
+for (i in 1:5){
+        filename <- paste("Mandelbrot","0",as.character(i),"c.gif",sep = "")
+        write.gif(X[[i]], filename, col=jet.colors, delay=100)
+}
+
+# Third cycle 11 - 15
+
+Z <- list(0,0,0,0,0)
+
+for (k in 1:100) {          	     # loop with 100 iterations
+  for (i in 1:5){
+  twoI <- 2*(i + 10)
+  Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
+
+  X[[i]][,,k] <- exp(-abs(Z[[i]]))   # capture results
+  }
+}
+
+for (i in 1:5){
+        filename <- paste("Mandelbrot","0",as.character(i),"d.gif",sep = "")
+        write.gif(X[[i]], filename, col=jet.colors, delay=100)
+}
+
+
+# Fourth cycle 16 - 20
+
+Z <- list(0,0,0,0,0)
+
+for (k in 1:100) {          	     # loop with 100 iterations
+  for (i in 1:5){
+  twoI <- 2*(i + 15)
+  Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
+
+  X[[i]][,,k] <- exp(-abs(Z[[i]]))   # capture results
+  }
+}
+
+for (i in 1:5){
+        filename <- paste("Mandelbrot","0",as.character(i),"e.gif",sep = "")
+        write.gif(X[[i]], filename, col=jet.colors, delay=100)
+}
+
 
 ```
 
@@ -59,24 +110,89 @@ for (i in 1:5){
 
 ### Mandelbrot set ( $z = z^2 + c$)
 
-<img src="./images/Mandelbrot1a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot01b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^4 + c$)
 
-<img src="./images/Mandelbrot2a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot02b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^6 + c$)
 
-<img src="./images/Mandelbrot3a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot03b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^8 + c$)
 
-<img src="./images/Mandelbrot4a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot04b.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ### Another fractal ($z = z^{10} + c$)
 
-<img src="./images/Mandelbrot5a.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot05b.gif" style="width:400px;height:400px;" align="middle"></img>
 
+
+
+### Another fractal ($z = z^{12} + c$)
+
+<img src="./images/Mandelbrot01c.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{14} + c$)
+
+<img src="./images/Mandelbrot02c.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{16} + c$)
+
+<img src="./images/Mandelbrot03c.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{18} + c$)
+
+<img src="./images/Mandelbrot04c.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{20} + c$)
+
+<img src="./images/Mandelbrot05c.gif" style="width:400px;height:400px;" align="middle"></img>
+
+
+
+### Another fractal ($z = z^{22} + c$)
+
+<img src="./images/Mandelbrot01d.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{24} + c$)
+
+<img src="./images/Mandelbrot02d.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{26} + c$)
+
+<img src="./images/Mandelbrot03d.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{28} + c$)
+
+<img src="./images/Mandelbrot04d.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{30} + c$)
+
+<img src="./images/Mandelbrot05d.gif" style="width:400px;height:400px;" align="middle"></img>
+
+
+
+### Another fractal ($z = z^{32} + c$)
+
+<img src="./images/Mandelbrot01e.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{34} + c$)
+
+<img src="./images/Mandelbrot02e.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{36} + c$)
+
+<img src="./images/Mandelbrot03e.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{38} + c$)
+
+<img src="./images/Mandelbrot04e.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = z^{40} + c$)
+
+<img src="./images/Mandelbrot05e.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ## Sources
 

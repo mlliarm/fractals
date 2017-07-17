@@ -37,14 +37,14 @@ X<- list(array(0, c(dy,dx,100)),array(0, c(dy,dx,100)),array(0, c(dy,dx,100)),
 for (k in 1:100) {		    # loop with 100 iterations
   for (i in 1:5){
   twoI <- 2*i
-  Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
+  Z[[i]]<- sin(Z[[i]])^(twoI) + C         # the central difference equation
   
   X[[i]][,,k] <- exp(-abs(Z[[i]]))   # capture results
   }
 }
 
 for (i in 1:5){
-	filename <- paste("Mandelbrot","0",as.character(i),"b.gif",sep = "")
+	filename <- paste("images/Mandelbrot","0",as.character(i),"bb.gif",sep = "")
 	write.gif(X[[i]], filename, col=jet.colors, delay=100)
 }
 
@@ -54,15 +54,15 @@ Z <- list(0,0,0,0,0)
 
 for (k in 1:100) {          	    # loop with 100 iterations
   for (i in 1:5){
-  twoI <- 2*(i + 5)
-  Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
+  twoI <- 2*(i + 0)
+  Z[[i]]<- cos(Z[[i]])*sin(Z[[i]])^(twoI) + C         # the central difference equation
 
   X[[i]][,,k] <- exp(-abs(Z[[i]]))   # capture results
   }
 }
 
 for (i in 1:5){
-        filename <- paste("Mandelbrot","0",as.character(i),"c.gif",sep = "")
+        filename <- paste("images/Mandelbrot","0",as.character(i),"cc.gif",sep = "")
         write.gif(X[[i]], filename, col=jet.colors, delay=100)
 }
 
@@ -72,15 +72,15 @@ Z <- list(0,0,0,0,0)
 
 for (k in 1:100) {          	     # loop with 100 iterations
   for (i in 1:5){
-  twoI <- 2*(i + 10)
-  Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
+  twoI <- 2*(i + 0)
+  Z[[i]]<- sin(Z[[i]])*Z[[i]]^(twoI) + C         # the central difference equation
 
   X[[i]][,,k] <- exp(-abs(Z[[i]]))   # capture results
   }
 }
 
 for (i in 1:5){
-        filename <- paste("Mandelbrot","0",as.character(i),"d.gif",sep = "")
+        filename <- paste("images/Mandelbrot","0",as.character(i),"dd.gif",sep = "")
         write.gif(X[[i]], filename, col=jet.colors, delay=100)
 }
 
@@ -92,14 +92,14 @@ Z <- list(0,0,0,0,0)
 for (k in 1:100) {          	     # loop with 100 iterations
   for (i in 1:5){
   twoI <- 2*(i + 15)
-  Z[[i]]<- Z[[i]]^(twoI) + C         # the central difference equation
+  Z[[i]]<- sin(Z[[i]]^(twoI)) + C         # the central difference equation
 
   X[[i]][,,k] <- exp(-abs(Z[[i]]))   # capture results
   }
 }
 
 for (i in 1:5){
-        filename <- paste("Mandelbrot","0",as.character(i),"e.gif",sep = "")
+        filename <- paste("images/Mandelbrot","0",as.character(i),"ee.gif",sep = "")
         write.gif(X[[i]], filename, col=jet.colors, delay=100)
 }
 
@@ -108,91 +108,91 @@ for (i in 1:5){
 
 ## Results
 
-### Mandelbrot set ( $z = z^2 + c$)
+### Some  fractal ( $z = sin(z)^2 + c$)
 
-<img src="./images/Mandelbrot01b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot01bb.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^4 + c$)
+### Another fractal ($z = sin(z)^4 + c$)
 
-<img src="./images/Mandelbrot02b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot02bb.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^6 + c$)
+### Another fractal ($z = sin(z)^6 + c$)
 
-<img src="./images/Mandelbrot03b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot03bb.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^8 + c$)
+### Another fractal ($z = sin(z)^8 + c$)
 
-<img src="./images/Mandelbrot04b.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot04bb.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{10} + c$)
+### Another fractal ($z = sin(z)^{10} + c$)
 
-<img src="./images/Mandelbrot05b.gif" style="width:400px;height:400px;" align="middle"></img>
-
-
-
-### Another fractal ($z = z^{12} + c$)
-
-<img src="./images/Mandelbrot01c.gif" style="width:400px;height:400px;" align="middle"></img>
-
-### Another fractal ($z = z^{14} + c$)
-
-<img src="./images/Mandelbrot02c.gif" style="width:400px;height:400px;" align="middle"></img>
-
-### Another fractal ($z = z^{16} + c$)
-
-<img src="./images/Mandelbrot03c.gif" style="width:400px;height:400px;" align="middle"></img>
-
-### Another fractal ($z = z^{18} + c$)
-
-<img src="./images/Mandelbrot04c.gif" style="width:400px;height:400px;" align="middle"></img>
-
-### Another fractal ($z = z^{20} + c$)
-
-<img src="./images/Mandelbrot05c.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot05bb.gif" style="width:400px;height:400px;" align="middle"></img>
 
 
 
-### Another fractal ($z = z^{22} + c$)
+### Another fractal ($z = cos(z) * sin(z)^{2} + c$)
 
-<img src="./images/Mandelbrot01d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot01cc.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{24} + c$)
+### Another fractal ($z = cos(z) * sin(z)^{4} + c$)
 
-<img src="./images/Mandelbrot02d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot02cc.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{26} + c$)
+### Another fractal ($z = cos(z) * sin(z)^{6} + c$)
 
-<img src="./images/Mandelbrot03d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot03cc.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{28} + c$)
+### Another fractal ($z = cos(z) * sin(z)^{8} + c$)
 
-<img src="./images/Mandelbrot04d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot04cc.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{30} + c$)
+### Another fractal ($z = cos(z) * sin(z)^{10} + c$)
 
-<img src="./images/Mandelbrot05d.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot05cc.gif" style="width:400px;height:400px;" align="middle"></img>
 
 
 
-### Another fractal ($z = z^{32} + c$)
+### Another fractal ($z = sin(z) * z^{2} + c$)
 
-<img src="./images/Mandelbrot01e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot01dd.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{34} + c$)
+### Another fractal ($z = sin(z) * z^{4} + c$)
 
-<img src="./images/Mandelbrot02e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot02dd.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{36} + c$)
+### Another fractal ($z = sin(z) * z^{6} + c$)
 
-<img src="./images/Mandelbrot03e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot03dd.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{38} + c$)
+### Another fractal ($z = sin(z) * z^{8} + c$)
 
-<img src="./images/Mandelbrot04e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot04dd.gif" style="width:400px;height:400px;" align="middle"></img>
 
-### Another fractal ($z = z^{40} + c$)
+### Another fractal ($z = sin(z) * z^{10} + c$)
 
-<img src="./images/Mandelbrot05e.gif" style="width:400px;height:400px;" align="middle"></img>
+<img src="./images/Mandelbrot05dd.gif" style="width:400px;height:400px;" align="middle"></img>
+
+
+
+### Another fractal ($z = sin(z^{2}) + c$)
+
+<img src="./images/Mandelbrot01ee.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = sin(z^{4}) + c$)
+
+<img src="./images/Mandelbrot02ee.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = sin(z^{6}) + c$)
+
+<img src="./images/Mandelbrot03ee.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = sin(z^{8}) + c$)
+
+<img src="./images/Mandelbrot04ee.gif" style="width:400px;height:400px;" align="middle"></img>
+
+### Another fractal ($z = sin(z^{10}) + c$)
+
+<img src="./images/Mandelbrot05ee.gif" style="width:400px;height:400px;" align="middle"></img>
 
 ## Sources
 
