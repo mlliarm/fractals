@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(caTools) # external package providing write.gif function
 ```
 
-```{r echo=TRUE, warning=FALSE}
+```{r, echo=TRUE, warning=FALSE}
 jet.colors <- colorRampPalette(c("#00007F", "blue", "#007FFF", "cyan", "#7FFF7F",
                                  "yellow", "#FF7F00", "red", "#7F0000"))
 dx <- 400                  # define width
