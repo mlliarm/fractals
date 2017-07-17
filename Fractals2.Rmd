@@ -13,7 +13,7 @@ See here: <https://en.wikipedia.org/wiki/Mandelbrot_set>
 
 ## Code
 
-```{r setup, include=TRUE, warning=FALSE}
+```r setup, include=TRUE, warning=FALSE
 knitr::opts_chunk$set(echo = TRUE)
 library(caTools) # external package providing write.gif function
 ```
