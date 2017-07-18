@@ -196,5 +196,5 @@ for (i in 1:5){
 
 ## Sources
 
-* [Whoever wrote this cool example]<https://en.wikipedia.org/w/index.php?title=R_(programming_language)&oldid=783709493#Mandelbrot_set>.
-* [How to compile a Rmarkdown notebook to html]<http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html>.
+* [Whoever wrote this cool example](https://en.wikipedia.org/w/index.php?title=R_(programming_language)&oldid=783709493#Mandelbrot_set).
+* [How to compile a Rmarkdown notebook to html](http://kbroman.org/knitr_knutshell/pages/Rmarkdown.html).
