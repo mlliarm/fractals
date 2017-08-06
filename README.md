@@ -41,9 +41,9 @@ Using the complex map `z = z^2 + c`:
 
 ## R markdown files
 
-* [First experiment](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd)
-* [Second experiment](https://github.com/mlliarm/fractals/blob/master/Fractals3.Rmd)
-* [Third experiment](https://github.com/mlliarm/fractals/blob/master/Fractals4.Rmd)
+* [First experiment](https://github.com/mlliarm/fractals/blob/master/Fractals.Rmd)
+* [Second experiment](https://github.com/mlliarm/fractals/blob/master/Fractals2.Rmd)
+* [Third experiment](https://github.com/mlliarm/fractals/blob/master/Fractals3.Rmd)
 
 ## Licence
 
