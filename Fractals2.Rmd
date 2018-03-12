@@ -1,6 +1,6 @@
 ---
 title: Creating the Mandelbrot set with R
-date: "29/01/27"
+date: "29/01/17"
 author: Mi. Lia.
 output: html_document
 ---
